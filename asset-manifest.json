@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ina-puzzle/static/css/main.d1b05096.chunk.css",
-    "main.js": "/ina-puzzle/static/js/main.69473b25.chunk.js",
-    "main.js.map": "/ina-puzzle/static/js/main.69473b25.chunk.js.map",
-    "runtime-main.js": "/ina-puzzle/static/js/runtime-main.83ab417b.js",
-    "runtime-main.js.map": "/ina-puzzle/static/js/runtime-main.83ab417b.js.map",
-    "static/js/2.36d2cf4e.chunk.js": "/ina-puzzle/static/js/2.36d2cf4e.chunk.js",
-    "static/js/2.36d2cf4e.chunk.js.map": "/ina-puzzle/static/js/2.36d2cf4e.chunk.js.map",
-    "index.html": "/ina-puzzle/index.html",
-    "precache-manifest.27bcf59e4dbba75947653d4f436c2957.js": "/ina-puzzle/precache-manifest.27bcf59e4dbba75947653d4f436c2957.js",
-    "service-worker.js": "/ina-puzzle/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/ina-puzzle/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.36d2cf4e.chunk.js.LICENSE.txt": "/ina-puzzle/static/js/2.36d2cf4e.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/ina-puzzle/static/media/logo.5d5d9eef.svg"
+    "main.css": "/ina-puzzle2/static/css/main.d1b05096.chunk.css",
+    "main.js": "/ina-puzzle2/static/js/main.4de57543.chunk.js",
+    "main.js.map": "/ina-puzzle2/static/js/main.4de57543.chunk.js.map",
+    "runtime-main.js": "/ina-puzzle2/static/js/runtime-main.4fdd6df3.js",
+    "runtime-main.js.map": "/ina-puzzle2/static/js/runtime-main.4fdd6df3.js.map",
+    "static/js/2.36d2cf4e.chunk.js": "/ina-puzzle2/static/js/2.36d2cf4e.chunk.js",
+    "static/js/2.36d2cf4e.chunk.js.map": "/ina-puzzle2/static/js/2.36d2cf4e.chunk.js.map",
+    "index.html": "/ina-puzzle2/index.html",
+    "precache-manifest.131d181530e4fb38e2cd751324cde7b5.js": "/ina-puzzle2/precache-manifest.131d181530e4fb38e2cd751324cde7b5.js",
+    "service-worker.js": "/ina-puzzle2/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/ina-puzzle2/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.36d2cf4e.chunk.js.LICENSE.txt": "/ina-puzzle2/static/js/2.36d2cf4e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ina-puzzle2/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.83ab417b.js",
+    "static/js/runtime-main.4fdd6df3.js",
     "static/js/2.36d2cf4e.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.69473b25.chunk.js"
+    "static/js/main.4de57543.chunk.js"
   ]
 }
