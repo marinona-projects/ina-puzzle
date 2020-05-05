@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import { TextField, Button, Snackbar, Alert } from '@material-ui/core';
+import { TextField, Button, Snackbar } from '@material-ui/core';
+import MuiAlert from '@material-ui/lab/Alert';
 import { proves } from './provesData';
 import img1 from './assets/images/01.png';
 import img2 from './assets/images/02.png';
@@ -20,6 +21,7 @@ const puzzleOrder = [2, 4, 3, 5, 1, 0];
 
 function App() {
   const [actProva, setActProva] = useState(0);
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
   const [inputValue, setInputValue] = useState('');
   const [puzzleFlipped, setPuzzleFlipped] = useState([false, false, false, false, false, false]);
   const [allFinished, setAllFinished] = useState(false);
@@ -29,6 +31,7 @@ function App() {
 
   const handleProvaClick = () => {
     if (proves[actProva].response === inputValue) {
+      setShowSuccessMessage(true);
       let updatedPuzzleFlipped = [...puzzleFlipped];
       updatedPuzzleFlipped[puzzleOrder[actProva]] = true;
       setPuzzleFlipped(updatedPuzzleFlipped);
@@ -42,11 +45,18 @@ function App() {
   return (
     <div className="App">
       <h1 className="mt-2">Gincana Virtual INA 30</h1>
+
+      <Snackbar open={showSuccessMessage} autoHideDuration={3000} onClose={() => setShowSuccessMessage(false)}>
+        <MuiAlert elevation={6} variant="filled" onClose={() => setShowSuccessMessage(false)} severity="success" >
+          Resposta correcta!
+        </MuiAlert>
+      </Snackbar>
+
       {!allFinished &&
         <div className="d-flex flex-column align-items-center my-4">
           <h3 >{`Prova ${actProva + 1}`}</h3>
           <div className="mb-2">{proves[actProva].description}</div>
-          <div className="d-flex">
+          <div className="d-flex p-3">
             <TextField
               id="standard-basic"
               label="Resposta"
@@ -64,7 +74,7 @@ function App() {
       <div >
         {puzzleFlipped.map((p, key) => (
           <>
-            <img src={p ? resolvedImages[key] : lockImages[key]} style={{ width: 200 }} />
+            <img src={p ? resolvedImages[key] : lockImages[key]} style={{ width: '20%', borderRadius: p ? '' : '20%' }} />
             {key == 2 && <br />}
           </>
         ))}

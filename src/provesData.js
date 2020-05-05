@@ -8,7 +8,7 @@ export const proves = [
     },
     {
         label: "Resposta prova 2",
-        description: <p> JITSI MEET : <a href="https://www.youtube.com/watch?v=MnQruILg9mo"> VIDEO </a></p>,
+        description: <p> JITSI MEET : <a href="https://www.youtube.com/watch?v=MnQruILg9mo" target="_blank"> VIDEO </a></p>,
         response: "resposta2"
     },
     {
