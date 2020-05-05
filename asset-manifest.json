@@ -1,23 +1,34 @@
 {
   "files": {
-    "main.css": "/ina-puzzle/static/css/main.d1b05096.chunk.css",
-    "main.js": "/ina-puzzle/static/js/main.69473b25.chunk.js",
-    "main.js.map": "/ina-puzzle/static/js/main.69473b25.chunk.js.map",
+    "main.css": "/ina-puzzle/static/css/main.918f8e5b.chunk.css",
+    "main.js": "/ina-puzzle/static/js/main.970bc626.chunk.js",
+    "main.js.map": "/ina-puzzle/static/js/main.970bc626.chunk.js.map",
     "runtime-main.js": "/ina-puzzle/static/js/runtime-main.83ab417b.js",
     "runtime-main.js.map": "/ina-puzzle/static/js/runtime-main.83ab417b.js.map",
-    "static/js/2.36d2cf4e.chunk.js": "/ina-puzzle/static/js/2.36d2cf4e.chunk.js",
-    "static/js/2.36d2cf4e.chunk.js.map": "/ina-puzzle/static/js/2.36d2cf4e.chunk.js.map",
+    "static/js/2.ea886915.chunk.js": "/ina-puzzle/static/js/2.ea886915.chunk.js",
+    "static/js/2.ea886915.chunk.js.map": "/ina-puzzle/static/js/2.ea886915.chunk.js.map",
     "index.html": "/ina-puzzle/index.html",
-    "precache-manifest.27bcf59e4dbba75947653d4f436c2957.js": "/ina-puzzle/precache-manifest.27bcf59e4dbba75947653d4f436c2957.js",
+    "precache-manifest.f282ac01dedab479f6230d519ff49018.js": "/ina-puzzle/precache-manifest.f282ac01dedab479f6230d519ff49018.js",
     "service-worker.js": "/ina-puzzle/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/ina-puzzle/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.36d2cf4e.chunk.js.LICENSE.txt": "/ina-puzzle/static/js/2.36d2cf4e.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/ina-puzzle/static/media/logo.5d5d9eef.svg"
+    "static/css/main.918f8e5b.chunk.css.map": "/ina-puzzle/static/css/main.918f8e5b.chunk.css.map",
+    "static/js/2.ea886915.chunk.js.LICENSE.txt": "/ina-puzzle/static/js/2.ea886915.chunk.js.LICENSE.txt",
+    "static/media/01 lock.png": "/ina-puzzle/static/media/01 lock.3d48693c.png",
+    "static/media/01.png": "/ina-puzzle/static/media/01.c9e39ab4.png",
+    "static/media/02 lock.png": "/ina-puzzle/static/media/02 lock.27c464b5.png",
+    "static/media/02.png": "/ina-puzzle/static/media/02.c6ab4fa2.png",
+    "static/media/03 lock.png": "/ina-puzzle/static/media/03 lock.a1081dfe.png",
+    "static/media/03.png": "/ina-puzzle/static/media/03.28911e52.png",
+    "static/media/04 lock.png": "/ina-puzzle/static/media/04 lock.eb1a07b4.png",
+    "static/media/04.png": "/ina-puzzle/static/media/04.fcc3e978.png",
+    "static/media/05 lock.png": "/ina-puzzle/static/media/05 lock.3996d274.png",
+    "static/media/05.png": "/ina-puzzle/static/media/05.e2fb1048.png",
+    "static/media/06 lock.png": "/ina-puzzle/static/media/06 lock.73a3bb12.png",
+    "static/media/06.png": "/ina-puzzle/static/media/06.b0346cbb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.83ab417b.js",
-    "static/js/2.36d2cf4e.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.69473b25.chunk.js"
+    "static/js/2.ea886915.chunk.js",
+    "static/css/main.918f8e5b.chunk.css",
+    "static/js/main.970bc626.chunk.js"
   ]
 }
