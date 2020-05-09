@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ina-puzzle/static/css/main.918f8e5b.chunk.css",
-    "main.js": "/ina-puzzle/static/js/main.50c13672.chunk.js",
-    "main.js.map": "/ina-puzzle/static/js/main.50c13672.chunk.js.map",
+    "main.js": "/ina-puzzle/static/js/main.be8854e5.chunk.js",
+    "main.js.map": "/ina-puzzle/static/js/main.be8854e5.chunk.js.map",
     "runtime-main.js": "/ina-puzzle/static/js/runtime-main.83ab417b.js",
     "runtime-main.js.map": "/ina-puzzle/static/js/runtime-main.83ab417b.js.map",
     "static/js/2.6a9f49ca.chunk.js": "/ina-puzzle/static/js/2.6a9f49ca.chunk.js",
     "static/js/2.6a9f49ca.chunk.js.map": "/ina-puzzle/static/js/2.6a9f49ca.chunk.js.map",
     "index.html": "/ina-puzzle/index.html",
-    "precache-manifest.656e787ea99ab78751149e36f2e67204.js": "/ina-puzzle/precache-manifest.656e787ea99ab78751149e36f2e67204.js",
+    "precache-manifest.28220f8994f30bb6baec828f6f256bc8.js": "/ina-puzzle/precache-manifest.28220f8994f30bb6baec828f6f256bc8.js",
     "service-worker.js": "/ina-puzzle/service-worker.js",
     "static/css/main.918f8e5b.chunk.css.map": "/ina-puzzle/static/css/main.918f8e5b.chunk.css.map",
     "static/js/2.6a9f49ca.chunk.js.LICENSE.txt": "/ina-puzzle/static/js/2.6a9f49ca.chunk.js.LICENSE.txt",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.83ab417b.js",
     "static/js/2.6a9f49ca.chunk.js",
     "static/css/main.918f8e5b.chunk.css",
-    "static/js/main.50c13672.chunk.js"
+    "static/js/main.be8854e5.chunk.js"
   ]
 }
