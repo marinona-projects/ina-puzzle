@@ -3,33 +3,34 @@ import React from 'react';
 export const proves = [
     {
         label: "Resposta prova 1",
-        description: <div> Has de trobar totes les .... : <a href="https://www.youtube.com/watch?v=MnQruILg9mo" target="_blank">Vídeo</a></div>,
-        response: "resposta1"
+        icon: "💇‍♀️",
+        response: "lamartinaespentina"
     },
     {
         label: "Resposta prova 2",
-        description: <p> JITSI MEET : <a href="https://www.youtube.com/watch?v=MnQruILg9mo" target="_blank"> VIDEO </a></p>,
-        response: "resposta2"
+        icon: "💅",
+        response: "wakeupmakeup"
     },
     {
         label: "Resposta prova 3",
-        description: <p>Has de fer... bla bla bla</p>,
-        response: "resposta3"
+        icon: "🦠😷",
+        response: "trentenaenquarantena"
     },
     {
         label: "Resposta prova 4",
-        description: <p>Has de fer... bla bla bla2</p>,
-        response: "resposta4"
+        icon: "⏳",
+        response: "anomenalatrentena"
     },
     {
         label: "Resposta prova 5",
-        description: <p>Calcular mentalment 1min.(marge error de 5seg)</p>,
-        response: "resposta5"
+        icon: "📚",
+        response: "remenaiordena"
     },
     {
         label: "Resposta prova 6",
-        description: <p>Saltaa!</p>,
-        response: "resposta6"
+        description: <a href="https://www.youtube.com/watch?v=aE0fbe6i3BI&feature=youtu.be" target="_blank">Vídeo</a>,
+        icon: "🤸‍",
+        response: "martinaballarina"
     },
 
 ];

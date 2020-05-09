@@ -42,8 +42,19 @@ function App() {
     } else setInputError(true);
   }
 
+  const handleSubmit = e => {
+    e.preventDefault();
+    handleProvaClick();
+  }
+
   return (
     <div className="App">
+      <a
+        href="https://meet.jit.si/lamartinafa30anys"
+        target="_blank"
+        className="mr-3"
+        style={{ position: 'absolute', right: '0' }}
+      >Jitsi</a>
       <h1 className="mt-2">Gincana Virtual INA 30</h1>
 
       <Snackbar open={showSuccessMessage} autoHideDuration={3000} onClose={() => setShowSuccessMessage(false)}>
@@ -54,18 +65,20 @@ function App() {
 
       {!allFinished &&
         <div className="d-flex flex-column align-items-center my-4">
-          <h3 >{`Prova ${actProva + 1}`}</h3>
-          <div className="mb-2">{proves[actProva].description}</div>
+          <h3 >{`Prova ${actProva + 1} ${proves[actProva].icon}`}</h3>
+          <div className="mb-2">{proves[actProva]?.description}</div>
           <div className="d-flex p-3">
-            <TextField
-              id="standard-basic"
-              label="Resposta"
-              value={inputValue}
-              variant="outlined"
-              onChange={(e) => { setInputValue(e.target.value); setInputError(false); }}
-              error={inputError}
-            />
-            <Button variant="contained" className='ml-2' onClick={handleProvaClick}>Comprova</Button>
+            <form onSubmit={handleSubmit}>
+              <TextField
+                id="standard-basic"
+                label={proves[actProva].label}
+                value={inputValue}
+                variant="outlined"
+                onChange={(e) => { setInputValue(e.target.value); setInputError(false); }}
+                error={inputError}
+              />
+              <Button variant="contained" className='ml-2' type="submit">Comprova</Button>
+            </form>
           </div>
 
         </div>
