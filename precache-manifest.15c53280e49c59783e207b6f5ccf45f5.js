@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6eaf133156d554c2d3846116c433db8",
+    "revision": "b3cd330f7a878458d3f3cc8e87cab787",
     "url": "/ina-puzzle/index.html"
   },
   {
-    "revision": "792b0ea65f3ce9f6b3fe",
+    "revision": "ff5dcd25ee342d63d11d",
     "url": "/ina-puzzle/static/css/main.5665934a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ina-puzzle/static/js/2.a9b56f41.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "792b0ea65f3ce9f6b3fe",
-    "url": "/ina-puzzle/static/js/main.e121dbac.chunk.js"
+    "revision": "ff5dcd25ee342d63d11d",
+    "url": "/ina-puzzle/static/js/main.c067a3e3.chunk.js"
   },
   {
     "revision": "70ce648f6d926aab3418",
